@@ -1,0 +1,247 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+header#back-img {
+  background-image: url(../images/glasses-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31rem;
+  padding-top: 1rem;
+}
+
+.conteiner {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+#logo-title-menu {
+  background: cadetblue;
+}
+
+#head-logo {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h5#title {
+  font-size: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+
+#menu {
+  margin-left: auto;
+  color: white;
+  text-decoration: none;
+}
+
+#menu ul {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#menu ul li {
+  margin-right: 2rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li.mobil{
+  display: none;
+}
+
+.conteiner-slogan{
+  width: 996px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+h1#slogan {
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  margin-left: auto;
+}
+
+#figures {
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+figure {
+  height: 8rem;
+  width: 5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+figure img {
+    width: 5rem;
+    margin-bottom: auto;
+}
+
+img#exams {
+  width: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#articles {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+article {
+  width: 35%;
+}
+
+article#PHILOSOPHY {
+  margin-right: 5%;
+}
+
+.article-title {
+  width: 10rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: azure;
+}
+
+img#foot-logo{
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+p#copyright{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  header#back-img {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .conteiner,
+  .conteiner-slogan {
+    width: 100%;
+  }
+
+  h1#slogan {
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  header#back-img {
+    height: 17rem;
+    background-position: 20%
+  }
+
+  h5#title {
+    display: none;
+  }
+
+  li.mobil {
+    display: flex;
+  }
+
+  li.comp-tablet {
+    display: none;
+  }
+
+  h1#slogan {
+    margin-top: 9rem;
+    margin-right: auto;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #figures {
+    margin-top: 3.77rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.77rem;
+  }
+
+  figure #fit,
+  figure #delivery {
+    margin-top: 1.54rem;
+  }
+
+  #articles {
+    margin-top: 3.77rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  .article-title {
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+
+  article p {
+    font-size: 0.77rem;
+  }
+
+  article#PHILOSOPHY {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  img#foot-logo {
+    padding: 4rem 0 4rem 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p#copyright {
+    display: none;
+  }
+}
